@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+      section.Web {
+      
+        width: 80%;
+        padding-left: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 470px;
+        align-items: center;
+        justify-content: center;
+      }
+      #welcome {
+        border: 2px solid white;
+        background-color: rgb(113, 196, 175);
+        width: 30%;
+        float: left;
+        height: 500px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        text-align: center;
+        color: white;
+      }
+      #account {
+        border: 2px solid rgb(255, 242, 242);
+        width: 40%;
+        float: left;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        text-align: center;
+      }
+      .Heading2 {
+        color: rgb(50, 190, 124);
+      }
+      .link li {
+        float: left;
+        list-style: none;
+        display: block;
+        margin: 10px;
+        text-align: centers;
+      }
+      .link li a {
+        text-decoration: none;
+        border: 2px solid rgb(250, 241, 241);
+        padding: 10px;
+        border-radius: 55%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        justify-content: center;
+        font-size: 15px;
+      }
+      .link ul {
+        margin-left: 3rem;
+      }
+      .link nav {
+        margin-top: 20px;
+      }
+      .btn button {
+        background: rgb(113, 196, 175);
+        color: white;
+        border: 1.5px solid white;
+        padding: 10px 20px;
+        border-radius: 60px;
+        width: 150px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .sign1 button {
+        border: 1.5px solid white;
+        background: rgb(113, 196, 175);
+        color: white;
+        width: 150px;
+        padding: 10px 20px;
+        border-radius: 60px;
+        cursor: pointer;
+        font-size: 14px;
+        margin: 10%;
+      }
+      .center {
+        padding: 50% 0;
+      }
+      .in {
+        position: relative;
+      }
+      .in i {
+        position: absolute;
+        right: 104px;
+        top: 6px;
+      }
+      .in span {
+        padding-right: 10px;
+      }
+      .in input {
+        width: 200px;
+        padding: 5px;
+      }
+      ul li a i {
+        color: rgb(113, 196, 175);
+      }
+      .form {
+        color: grey;
+      }
+      a:hover {
+        background-color: whitesmoke;
+      }
+      .para1 p {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="Web">
+      <div id="account">
+        <div class="Heading2">
+          <h2>Account login</h2>
+        </div>
+        <div class="link">
+          <nav>
+            <ul>
+              <li>
+                <a href="http://facebook.com"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://google.com"
+                  ><i class="fa-brands fa-google-plus-g"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://linkedin.com"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="para2">
+          <p>or use your email for LOGIN:</p>
+          <br />
+        </div>
+        <form action="pro1.html">
+          <div class="form">
+            <div class="in">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+            <br />
+            <div class="in">
+              <span><i class="fa-solid fa-key"></i></span>
+              <input type="password" name="password" placeholder="Password" />
+            </div>
+          </div>
+          <br />
+          <div class="btn">
+            <button type="submit">SIGN IN</button>
+          </div>
+        </form>
+      </div>
+      <div id="welcome">
+        <div class="center">
+          <div class="Heading1">
+            <h2>Welcome Back!</h2>
+          </div>
+          <div class="para1">
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+          </div>
+          <div class="sign1">
+            <button type="submit">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
